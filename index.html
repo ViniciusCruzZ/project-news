@@ -4,35 +4,40 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Página feita para fins de estudos na Rocketseat">
     <meta name="author" content="Vinícius Cruz">
-    <meta name="description" content="Uma página com intuito de aprendizado notícias da Rocketseat">
-    <link rel="shortcut icon" href="assets/icon.png" type="image/x-icon">
-    <link rel="stylesheet" href="style.css">
     <title>RocketNews</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="assets/icon.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Spartan:wght@400;500;700&family=Work+Sans:wght@400;500;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <section class="content">
+    <section>
         <figure>
-            <img id="logo-rocketnews" src="assets/logo.svg" alt="Logo da RocketNews">
+                <img id="logo-rocketnews" src="assets/logo.svg" alt="Logo da RocketNews">
         </figure>
         <div class="cabecalho">
-            <h1>atualize ideias e informações em 5 minutos.
-            </h1>
-            <h2 id="meio">tudo que você precisa saber para começar seu dia bem e informado
-            </h2>
-            <p>notícias sobre o universo Rocketseat e tudo o que precisa para começar o dia melhor.<br>perfeito para se preparar para codar&#x2615;
+            <h1>atualize ideias e informações em 5 minutos.</h1>
+            <h2>tudo que você precisa saber para começar seu dia bem informado</h2>
+            <p>
+                noticias sobre o universo Rocketseat, e tudo o que precisa para começar o dia melhor.
+                perfeito para se preparar para codar&#x2615;
             </p>
         </div>
         <form>
-            <label for="email">Insira seu e-mail:</label>
-            <br>
-            <input type="email" name="email" id="email" placeholder="oi@rocketseat.com" required><img src="assets/send.svg" alt="Símbolo de enviar">
+            <label for="email">Insira seu e-mail:</label><br>
+            <div class="submit">
+                <input type="email" name="email" id="email" placeholder="oi@rocketseat.com.br">
+                <button><img src="assets/send.svg" alt="Enviar"></button>
+            </div>
         </form>
-        <button>deixe-me ler primeiro <img src="assets/arrow-right.svg" alt="Seta direita"></button>
+        <a href="#">deixe-me ler primeiro <img src="assets/arrow-right.svg" alt="Ir para o artigo"></a>
     </section>
-    <section>
+    <section class="read-news">
         <figure>
-            <img id="read-news" src="assets/read_news.jpg" alt="Um senhor lendo notícias">
+            <img id="read-news" src="assets/read_news.jpg" alt="Imagem de um idoso lendo as notícias">
         </figure>
     </section>
 </body>
