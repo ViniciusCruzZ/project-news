@@ -96,6 +96,8 @@ a > img {
 }
 
 #read-news {
-    object-fit: cover;
-    position: relative;
+    height: 100vh;
+    background: url(assets/read_news.jpg) no-repeat center;
+    background-size: cover;
+    background-position: right;
 }
